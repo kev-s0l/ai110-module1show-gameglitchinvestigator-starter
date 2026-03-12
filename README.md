@@ -26,15 +26,15 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
-The game is a number-guessing app where the player tries to guess a randomly generated secret number within a limited number of attempts based on the selected difficulty.
+- The game is a number-guessing app where the player tries to guess a randomly generated secret number within a limited number of attempts based on the selected difficulty.
 - [ ] Detail which bugs you found.
-The secret number was sometimes converted to a string, causing incorrect comparisons.
-The hint messages were reversed (ex: “Too High” told the player to go higher).
-The reset/new game behavior and difficulty range handling caused inconsistent gameplay.
+1. The secret number was sometimes converted to a string, causing incorrect comparisons.
+2. The hint messages were reversed (ex: “Too High” told the player to go higher).
+3. The reset/new game behavior and difficulty range handling caused inconsistent gameplay.
 - [ ] Explain what fixes you applied.
-Removed the code that converted the secret number to a string so it stays a stable integer.
-Corrected the hint messages so they properly guide the player.
-Cleaned up the game reset and difficulty logic so the secret number and range stay consistent.
+1. Removed the code that converted the secret number to a string so it stays a stable integer.
+2. Corrected the hint messages so they properly guide the player.
+3. Cleaned up the game reset and difficulty logic so the secret number and range stay consistent.
 
 ## 📸 Demo
 
