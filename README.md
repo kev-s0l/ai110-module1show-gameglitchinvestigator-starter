@@ -40,9 +40,8 @@ Cleaned up the game reset and difficulty logic so the secret number and range st
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
 
-
 ![Winning Screen](winning_screen.png)
-
+![Passing Pytest](passing_pytest.png)
 
 ## 🚀 Stretch Features
 
